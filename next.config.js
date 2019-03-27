@@ -1,3 +1,4 @@
 module.exports = {
-  //target: "serverless",
+  // You may only need to add assetPrefix in the production.
+  assetPrefix: "/out"
 };
