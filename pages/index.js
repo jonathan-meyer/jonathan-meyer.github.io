@@ -1,5 +1,12 @@
+import Timer from "../components/Timer";
+import Layout from "../components/Layout";
+
 function Home() {
-  return <div>Welcome to Next.js!</div>;
+  return (
+    <Layout>
+      <Timer />
+    </Layout>
+  );
 }
 
 export default Home;

@@ -3240,6 +3240,11 @@ parse-json@^2.2.0:
   dependencies:
     error-ex "^1.2.0"
 
+parse-ms@^2.0.0:
+  version "2.0.0"
+  resolved "https://pi-artifactory.lmig.com/artifactory/api/npm/npm/parse-ms/-/parse-ms-2.0.0.tgz#7b3640295100caf3fa0100ccceb56635b62f9d62"
+  integrity sha1-ezZAKVEAyvP6AQDMzrVmNbYvnWI=
+
 pascalcase@^0.1.1:
   version "0.1.1"
   resolved "https://pi-artifactory.lmig.com/artifactory/api/npm/npm/pascalcase/-/pascalcase-0.1.1.tgz#b363e55e8006ca6fe21784d2db22bd15d7917f14"
@@ -3343,6 +3348,13 @@ posix-character-classes@^0.1.0:
   version "0.1.1"
   resolved "https://pi-artifactory.lmig.com/artifactory/api/npm/npm/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
   integrity sha1-AerA/jta9xoqbAL+q7jB/vfgDqs=
+
+pretty-ms@^4.0.0:
+  version "4.0.0"
+  resolved "https://pi-artifactory.lmig.com/artifactory/api/npm/npm/pretty-ms/-/pretty-ms-4.0.0.tgz#31baf41b94fd02227098aaa03bd62608eb0d6e92"
+  integrity sha1-Mbr0G5T9AiJwmKqgO9YmCOsNbpI=
+  dependencies:
+    parse-ms "^2.0.0"
 
 private@^0.1.6:
   version "0.1.8"
